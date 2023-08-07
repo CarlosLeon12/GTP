@@ -1,0 +1,228 @@
+.contenedor {
+    display: flex;
+  }
+  
+  .div-izquierdo {
+    width: 285px; /* Ancho fijo del lado izquierdo */
+    flex-shrink: 5; /* Evita que el div izquierdo se encoja si el espacio es insuficiente */
+  }
+  
+  .div-derecho {
+    flex-grow: 1; /* Permite que el div derecho tome el espacio restante */
+    /*background-color: lightgray; /* Solo para mostrar el área del div derecho */
+  }
+
+.bordes{
+    border: 2.5px solid #2ecc71; /* Cambia este valor al color de borde deseado */
+    border-radius: 10px;
+    /*background-color: #f2f2f2; /* Cambia el color de fondo del campo de entrada */
+}
+
+.nombre{
+    display: flex;
+    font-size: 20px;
+}
+
+.diviciones{
+margin-left: 0px;
+width: 250px;
+height: 773px;
+background-color: #1a1919;
+}
+
+.tama{
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #292929;
+    color: white;
+}
+
+.button2{
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #292929;
+    color: white;
+}
+
+.CuadroG{
+    background-color: #292929;
+    height: 790px;
+    border-radius: 20px;
+    border: 3px solid #000000; 
+}
+
+.conversacion{
+    border-radius: 10px;
+     background-color: #292929;
+    color: white;
+}
+
+.colorL{
+color: aliceblue;
+font-size: 20px;
+}
+
+.colorL2{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.colorB{
+    color: antiquewhite;
+}
+
+.fecha{
+    color:  antiquewhite;
+    margin-left: 29px;
+    margin-right: 0px;
+}
+
+.confiy{
+    margin-top: 455px;
+}
+
+.redondo{
+    border-radius: 10px;
+    border: 2px solid #2ecc71;
+}
+
+.botonConfi {
+   height: 33px;
+   width: 30px;
+  }
+
+.botonGit{
+    height: 33px;
+    width: 30px;
+}
+
+.imgChat{
+    height: 33px;
+    width: 110px;
+}
+
+.botonCon{
+    height: 40px;
+    width: 125px;
+    border: 3px solid #2ecc71;
+    border-radius: 10px;
+}
+
+.cuadroD{
+    height: 65px;
+    border-radius: 10px;
+}
+
+.BarraEstado{
+    width: 100%;
+    margin-left: 5px;
+}
+
+/*--------------------------------Derecho-----------------------------------*/
+
+.grupo{
+    display: flex;
+    align-items: center;
+    height: 800px;
+  }
+  
+  .fieldset-grupo {
+    width: 900px;
+  }
+  
+  .fieldset-divs {
+    display: flex;
+    width: 1265px;
+  }
+  
+  .fieldset-div-izquierdo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fieldset-div-izquierdo div {
+    flex: 1;
+  }
+  
+  .fieldset-div-derecho {
+    flex: 1;
+  }
+
+.icono{
+    height: 40px;
+    width: 40px;
+}
+
+/*--------------------alinear imagenes-------------------------------------------*/
+  
+.imagenes-contenedor {
+    text-align: center; /* Opcional: centra las imágenes horizontalmente */
+  }
+
+  .divImagenes{
+    margin-top: 5px;
+    margin-left: 430px;
+  }
+
+  .imagen{
+    display: inline-block;
+    margin: 10px; /* Espaciado entre las imágenes */
+  }
+
+.logoDivGTP{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+  
+.logoGTP{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.alerta{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 723px;
+}
+
+.pieDePagina{
+    margin-top: 430px;
+    height: 115px;
+}
+
+.iconoPie{
+    height: 20px;
+    width: 20px;
+}
+
+.barraConsulta{
+    height: 75px;
+}
+
+.botonEnviar{
+    margin-left: 1210px;
+    margin-top: 28px;
+    width: 60px;
+    height: 30px;
+    background-color: #02ccff;
+    border-radius: 10px;
+}
+
+.Enviar{
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+}
+
+
